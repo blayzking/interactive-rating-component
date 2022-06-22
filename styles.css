@@ -1,0 +1,168 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.back-colour {
+    /* position: absolute;
+    padding-top: 150px; */
+    background-size: 100%;
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    height: 380px;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.container2 {
+ /* background-size: 100%;   
+ width: 250px;
+ height: 250px;
+ border-radius: 20%;
+ text-align: center; */
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 360px;
+    width: 330px;
+    
+}
+#rating-page {
+    position: absolute;
+    top: 15px;
+}
+
+#thank-page {
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+
+/* SVG ICONS */
+/* centering the star icon */
+.star-icon {
+    display: inline-block;
+    margin: auto;
+}
+
+.star-image {
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 100%;
+    width: 39px;
+    height:39px;
+    display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+.second-svg {
+    display: inline-block;
+    /* display: flex;
+    justify-content: center; */
+    margin-bottom: 20px;
+}
+
+/* heading and paragraph color and edits */
+.heading-colour, .heading2-colour {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+}
+
+.heading2-colour {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.p-colour {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.p2-colour {
+    color: hsl(25, 97%, 53%);
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.p3-colour {
+    color: hsl(217, 12%, 63%);
+    font-size: 14.5px;
+    
+}
+.star-rating {
+    background-color: hsl(216, 12%, 8%);
+    display: inline-block;
+    border-radius: 50px;
+    height: 25px;
+    width: 190px;
+    margin-top: 15px;
+}
+/* this hides the thank you page using css */
+
+/* #thank-page {
+    display: none;
+} */
+
+/* circular buttons */
+.rounded {
+    border-radius: 200% !important;
+    
+}
+
+.num-button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    /* box-shadow: 0 5px 5px hsl(216, 12%, 8%); */
+    /* cursor: pointer; */
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 8%);
+    margin: 13px 9px;
+}
+.submit-container {
+    display: flex;
+  justify-content: center;
+}
+.submit-btn {
+    border-radius: 40px;
+    width: 300px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    height: 40px;
+    margin-top: 15PX;
+}
+
+/* Active and Hover states of buttons */
+
+.num-button:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.num-button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.num-button:active {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit-btn:hover:focus:active {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
